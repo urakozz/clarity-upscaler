@@ -294,7 +294,8 @@ class Predictor(BasePredictor):
                 tiling_width = max(256, tiling_width)
                 tiling_height = tiling_height + 16
                 tiling_height = max(256, tiling_height)
-                first_iteration = False
+                
+            first_iteration = False
 
             payload = {
                 "override_settings": {
